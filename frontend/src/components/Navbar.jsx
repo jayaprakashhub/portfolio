@@ -72,7 +72,7 @@ const handleDownloadCV = async (e) => {
             </Link>
           ))}
           <motion.button
-            onClick={handleDownloadCV}
+            onClick={(e)=>{handleDownloadCV(e)}}
             className="inline-flex items-center gap-2 bg-purple-500 text-white px-5 py-2 rounded-full font-semibold shadow-lg
                        hover:bg-purple-600 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 text-sm"
             whileHover={{ scale: 1.02 }}
@@ -122,8 +122,8 @@ const handleDownloadCV = async (e) => {
             </Link>
           ))}
           <motion.button
-            onClick={() => {
-              handleDownloadCV();
+            onClick={(e) => {
+              handleDownloadCV(e);
               setIsOpen(false); // Close menu after clicking download
             }}
             className="mt-4 inline-flex items-center gap-2 bg-purple-500 text-white px-7 py-3 rounded-full font-semibold shadow-lg
