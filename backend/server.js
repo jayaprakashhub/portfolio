@@ -10,7 +10,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: 'https://portfolio-jp-j1em.onrender.com/'
+  origin: 'https://portfolio-jp-j1em.onrender.com/',
+  methods: ['GET', 'POST'],
+  credentials: true
 }));
 app.use(express.json());
 
