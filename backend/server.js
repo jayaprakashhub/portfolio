@@ -9,7 +9,9 @@ const downloadRoutes = require('./routes/download');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://portfolio-jp-j1em.onrender.com/'
+}));
 app.use(express.json());
 
 app.use('/api/contact', contactRoutes);
