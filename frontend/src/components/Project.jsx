@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-//https://github.com/jayaprakashhub/Baymax.git
-//https://github.com/jayaprakashhub/portfolio.git
+
 const Project = () => {
   const projects = [
     {
