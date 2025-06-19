@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+//https://github.com/jayaprakashhub/Baymax.git
+//https://github.com/jayaprakashhub/portfolio.git
 const Project = () => {
   const projects = [
     {
@@ -14,13 +15,13 @@ const Project = () => {
       title: "Chatbot System",
       description: "Multi-chat chatbot with disease prediction using custom-trained models and a user-friendly interface.",
       tech: ["React", "Flask", "Express", "MongoDB","Pinecone"],
-      github: "https://github.com/yourusername/chatbot-system" // Replace with actual URL
+      github: "https://github.com/jayaprakashhub/Baymax.git" // Replace with actual URL
     },
     {
       title: "Portfolio Website",
       description: "A sleek, single-page responsive portfolio built with React and Tailwind CSS, featuring smooth scrolling and animations.",
       tech: ["React", "Tailwind CSS","Express","Mongodb"],
-      github: "https://github.com/yourusername/portfolio", // Replace with actual URL
+      github: "https://github.com/jayaprakashhub/portfolio.git", // Replace with actual URL
       demo: "#"
     },
     {
